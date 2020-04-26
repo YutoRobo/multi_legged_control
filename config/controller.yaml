@@ -6,89 +6,89 @@ multi_legged_robot:
   LF_base_clause_controller:
     type: effort_controllers/JointPositionController
     joint: LF_base_clause_joint
-    pid: {p: 1.0, i: 0.0, d: 0.001}
+    pid: {p: 100.0, i: 0.0, d: 0.1}
 
   LF_thigh_controller:
     type: effort_controllers/JointPositionController
     joint: LF_thigh_joint
-    pid: {p: 1.0, i: 0.0, d: 0.001}
+    pid: {p: 100.0, i: 0.0, d: 0.1}
 
   LF_tibia_controller:
     type: effort_controllers/JointPositionController
     joint: LF_tibia_joint
-    pid: {p: 1.0, i: 0.0, d: 0.001}
+    pid: {p: 100.0, i: 0.0, d: 0.1}
 
   LM_base_clause_controller:
     type: effort_controllers/JointPositionController
     joint: LM_base_clause_joint
-    pid: {p: 1.0, i: 0.0, d: 0.001}
+    pid: {p: 100.0, i: 0.0, d: 0.1}
 
   LM_thigh_controller:
     type: effort_controllers/JointPositionController
     joint: LM_thigh_joint
-    pid: {p: 1.0, i: 0.0, d: 0.001}
+    pid: {p: 100.0, i: 0.0, d: 0.1}
 
   LM_tibia_controller:
     type: effort_controllers/JointPositionController
     joint: LM_tibia_joint
-    pid: {p: 1.0, i: 0.0, d: 0.001}
+    pid: {p: 100.0, i: 0.0, d: 0.1}
 
   LH_base_clause_controller:
     type: effort_controllers/JointPositionController
     joint: LH_base_clause_joint
-    pid: {p: 1.0, i: 0.0, d: 0.001}
+    pid: {p: 100.0, i: 0.0, d: 0.1}
 
   LH_thigh_controller:
     type: effort_controllers/JointPositionController
     joint: LH_thigh_joint
-    pid: {p: 1.0, i: 0.0, d: 0.001}
+    pid: {p: 100.0, i: 0.0, d: 0.1}
 
   LH_tibia_controller:
     type: effort_controllers/JointPositionController
     joint: LH_tibia_joint
-    pid: {p: 1.0, i: 0.0, d: 0.001}
+    pid: {p: 100.0, i: 0.0, d: 0.1}
 
   RF_base_clause_controller:
     type: effort_controllers/JointPositionController
     joint: RF_base_clause_joint
-    pid: {p: 1.0, i: 0.0, d: 0.001}
+    pid: {p: 100.0, i: 0.0, d: 0.1}
   
   RF_thigh_controller:
     type: effort_controllers/JointPositionController
     joint: RF_thigh_joint
-    pid: {p: 1.0, i: 0.0, d: 0.001}
+    pid: {p: 100.0, i: 0.0, d: 0.1}
 
   RF_tibia_controller:
     type: effort_controllers/JointPositionController
     joint: RF_tibia_joint
-    pid: {p: 1.0, i: 0.0, d: 0.001}
+    pid: {p: 100.0, i: 0.0, d: 0.1}
   
   RM_base_clause_controller:
     type: effort_controllers/JointPositionController
     joint: RM_base_clause_joint
-    pid: {p: 1.0, i: 0.0, d: 0.001}
+    pid: {p: 100.0, i: 0.0, d: 0.1}
   
   RM_thigh_controller:
     type: effort_controllers/JointPositionController
     joint: RM_thigh_joint
-    pid: {p: 1.0, i: 0.0, d: 0.001}
+    pid: {p: 100.0, i: 0.0, d: 0.1}
 
   RM_tibia_controller:
     type: effort_controllers/JointPositionController
     joint: RM_tibia_joint
-    pid: {p: 1.0, i: 0.0, d: 0.001}
+    pid: {p: 100.0, i: 0.0, d: 0.1}
 
   RH_base_clause_controller:
     type: effort_controllers/JointPositionController
     joint: RH_base_clause_joint
-    pid: {p: 1.0, i: 0.0, d: 0.001}
+    pid: {p: 100.0, i: 0.0, d: 0.1}
   
   RH_thigh_controller:
     type: effort_controllers/JointPositionController
     joint: RH_thigh_joint
-    pid: {p: 1.0, i: 0.0, d: 0.001}
+    pid: {p: 100.0, i: 0.0, d: 0.1}
 
   RH_tibia_controller:
     type: effort_controllers/JointPositionController
     joint: RH_tibia_joint
-    pid: {p: 1.0, i: 0.0, d: 0.001}
+    pid: {p: 100.0, i: 0.0, d: 0.1}
