@@ -1,0 +1,22 @@
+<launch>
+  <node name="controller_unspawner" pkg="controller_manager" type="unspawner" respawn="false"
+	output="screen" ns="/multi_legged_robot" args="joint_state_controller
+                                                 LF_base_clause_controller
+                                                 LM_base_clause_controller
+                                                 LH_base_clause_controller
+                                                 RF_base_clause_controller
+                                                 RM_base_clause_controller
+                                                 RH_base_clause_controller
+                                                 LF_thigh_controller
+                                                 LM_thigh_controller
+                                                 LH_thigh_controller
+                                                 RF_thigh_controller
+                                                 RM_thigh_controller
+                                                 RH_thigh_controller
+                                                 LF_tibia_controller
+                                                 LM_tibia_controller
+                                                 LH_tibia_controller
+                                                 RF_tibia_controller
+                                                 RM_tibia_controller
+                                                 RH_tibia_controller"/>
+</launch>
