@@ -1,5 +1,5 @@
 <launch>
-  <arg name="robotname" default="robot" /> <!--ここに入力引数を記述-->
+  <arg name="robotname" default="robot1" /> <!--ここに入力引数を記述-->
   <!-- Load joint controller configurations from YAML file to parameter server -->
   <rosparam file="$(find multi_legged_control)/config/controller.yaml" command="load" ns="/$(arg robotname)" />
   <group ns="/$(arg robotname)">
